@@ -56,15 +56,14 @@ function inheritancePseudoclassical () {
     var Dog = function (name) {
         this.name = name;
         this.saying = 'hoof';
-    }.
-        inherits(Mammal).
-        method('bark', function () {
+    }.inherits(Mammal)
+     .method('bark', function () {
             return 'hoof-hoof';
-        }).
-        method('get_name', function ( ) {
+     })
+     .method('get_name', function ( ) {
             return this.says( ) + ' ' + this.name +
                 ' ' + this.says( );
-        });
+     });
 
     var myMammal = new Mammal('Herb the Mammal');
     var m_name = myMammal.get_name( ); // 'Herb the Mammal'

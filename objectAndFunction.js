@@ -49,8 +49,6 @@ function run() {
     functionFunctionInvocation(methodInvoc);
     functionConstructorInvocation();
     functionApplyInvocation();
-
-    logger.line();
 }
 
 function objectLiteral() {
