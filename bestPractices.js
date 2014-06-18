@@ -1,5 +1,8 @@
 /**
  * Javascript Best Practices
+ *
+ * Code convention
+ *      http://javascript.crockford.com/code.html
  */
 
 var logger = require('./logger.js');
